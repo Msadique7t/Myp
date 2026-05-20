@@ -24,18 +24,17 @@ export const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-950 flex items-center justify-center p-4">
-      <div className="w-full max-w-lg bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl overflow-hidden">
-        
+    <div className="min-h-screen bg-neutral-950 flex flex-col items-center justify-center p-4">
+      <div className="w-full max-w-lg bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl overflow-hidden relative">
         <div className="p-8 text-center border-b border-neutral-800/50">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-500/10 mb-6">
-            <PlayCircle className="w-8 h-8 text-blue-500" />
+             <PlayCircle className="w-8 h-8 text-blue-500" />
           </div>
           <h1 className="text-3xl font-bold text-white tracking-tight mb-2 font-sans">
             Stream GDrive Video
           </h1>
           <p className="text-neutral-400 text-sm">
-            Enter a Google Drive Video ID or Link to play instantly in a custom web player without iframes.
+            Enter a Google Drive Video ID or Link to play instantly via embedded player.
           </p>
         </div>
 
@@ -61,7 +60,6 @@ export const HomePage: React.FC = () => {
             Play Video
           </button>
         </form>
-
       </div>
     </div>
   );

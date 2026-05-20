@@ -36,15 +36,14 @@ export const PlayerPage: React.FC = () => {
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-1 flex flex-col items-center justify-center p-4 lg:p-8 relative z-10">
-        <div className="w-full max-w-5xl rounded-xl overflow-hidden shadow-2xl shadow-blue-500/5 ring-1 ring-neutral-800/50 bg-black">
+      <main className="flex-1 flex flex-col items-center justify-center p-2 sm:p-4 lg:p-8 relative z-10 w-full mb-10">
+        <div className="w-full max-w-5xl xl:max-w-6xl mx-auto rounded-xl overflow-hidden shadow-2xl shadow-blue-500/5 ring-1 ring-neutral-800/50 bg-black">
           <CustomPlayer id={videoId} />
         </div>
         
         <div className="mt-8 max-w-4xl text-center">
            <p className="text-sm text-neutral-500">
-              Note: This player uses direct stream links. Google Drive videos must be public. 
-              Videos over 100MB may fail to load if Google enforces a virus scan warning.
+              Google Drive embedded player is used to support video streaming.
            </p>
         </div>
       </main>

@@ -1,0 +1,6 @@
+{
+  "name": "GDrive Video Player",
+  "description": "A custom, lightweight web video player for streaming Google Drive videos directly via ID in the URL. Vercel compatible SPA.",
+  "requestFramePermissions": ["fullscreen"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
